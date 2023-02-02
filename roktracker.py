@@ -141,8 +141,8 @@ font.bold = True
 style.font = font
 
 #Initialize Excel Sheet Header
-sheet1.write(0, 0, 'Governor Name', style)
-sheet1.write(0, 1, 'Governor ID', style)
+sheet1.write(0, 0, 'ID', style)
+sheet1.write(0, 1, 'Name', style)
 sheet1.write(0, 2, 'Power', style)
 sheet1.write(0, 3, 'Kill Points', style)
 sheet1.write(0, 4, 'Deads', style)
