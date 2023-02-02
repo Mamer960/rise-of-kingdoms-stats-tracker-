@@ -449,7 +449,7 @@ try:
 
 		print(str(i+1)+'-'+'Governor Id: '+str(gov_id)+'\nName: '+str(gov_name)+'\nPower: '+str(gov_power)+'\nKillPoints: '+str(gov_killpoints)
 		+'\nT1 kills: '+str(gov_kills_tier1)+'\nT2 kills: '+str(gov_kills_tier2)+'\nT3 kills: '+str(gov_kills_tier3)+'\nT4 kills: '+str(gov_kills_tier4)
-		+'\nT5 kills: '+str(gov_kills_tier5)+'Victories: '+str(gov_victories)+'\nDefeats: '+str(gov_defeats)+'\nDeads: '+str(gov_dead)
+		+'\nT5 kills: '+str(gov_kills_tier5)+'\nVictories: '+str(gov_victories)+'\nDefeats: '+str(gov_defeats)+'\nDeads: '+str(gov_dead)
 		+'\nScouts: '+str(gov_scouts)+'\nRssGathered: '+str(gov_rss_gathered)+'\nRssAssistance: '+str(gov_rss_assistance)+'\n'
 		)
 		device.shell(f'input tap 1396 58') #close more info
